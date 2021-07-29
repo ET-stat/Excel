@@ -1,0 +1,7 @@
+#Un projet basé sur les données d'une entreprise ayant connu une fraude pendant 2 années consécutives.
+#L'objectif est de pouvoir détecter des fraudes, des vols, des erreurs systémiques et autre.
+
+#Pour commencer, nous pensons utiliser seulement les données temporelles et les transactions cash. 
+#   1.À l'aide d'un modèle de série chronologique, nous repérons les données potentiellement abhérantes.
+#   2.Nous tenterons de corréler les données abhérantes avec un autre attribut temporel, par exemple l'horaire des employés.
+#   3.Une correlation pourrait indiquer une faiblesse dans le système de transaction monnétaire de l'entreorise.
